@@ -46,10 +46,10 @@ int main(int argc, const char * argv[]) {
         // Dictionary: @{ key : value }
         // NSNumber: @123
         
-//        [basics exploreCollectionsWithArray:@[@"Malcolm Reynolds",
-//                                              @"Jean-Luc Picard",
-//                                              @"James T. Kirk",
-//                                              @"Kathryn Janeway"]];
+        [basics exploreCollectionsWithArray:@[@"Malcolm Reynolds",
+                                              @"Jean-Luc Picard",
+                                              @"James T. Kirk",
+                                              @"Kathryn Janeway"]];
         
         // [basics exploreNumbers];
     }

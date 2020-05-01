@@ -52,7 +52,7 @@ NS_ASSUME_NONNULL_BEGIN
 // (void) = no return value
 - (void)explorePrimitives;
 - (void)exploreObjects;
-//- (void)exploreCollectionsWithArray:(NSArray *)shipCaptains;
+- (void)exploreCollectionsWithArray:(NSArray *)shipCaptains;
 //- (void)exploreNumbers;
 
 @end
