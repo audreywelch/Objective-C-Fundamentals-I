@@ -38,7 +38,22 @@ NS_ASSUME_NONNULL_BEGIN
 // init(largeNuumber: Int)
 
 // - or + (- = instance method)
+// (instancetype) = return type (older code: id)
+
+// initializers at the top
+
 - (instancetype)initWithLargeNumber:(NSNumber *)largeNumber;
+
+// methods
+
+// Swift
+// func explorePrimitives() {}
+
+// (void) = no return value
+- (void)explorePrimitives;
+//- (void)exploreObjects;
+//- (void)exploreCollectionsWithArray:(NSArray *)shipCaptains;
+//- (void)exploreNumbers;
 
 @end
 
