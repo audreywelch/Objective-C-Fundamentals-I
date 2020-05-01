@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		84156D79245CCC5200A178DB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 84156D78245CCC5200A178DB /* main.m */; };
+		84156D81245CCD4E00A178DB /* SyntaxBasics.m in Sources */ = {isa = PBXBuildFile; fileRef = 84156D80245CCD4E00A178DB /* SyntaxBasics.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +26,8 @@
 /* Begin PBXFileReference section */
 		84156D75245CCC5200A178DB /* Objective-C-Fundamentals-I */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Objective-C-Fundamentals-I"; sourceTree = BUILT_PRODUCTS_DIR; };
 		84156D78245CCC5200A178DB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		84156D7F245CCD4E00A178DB /* SyntaxBasics.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SyntaxBasics.h; sourceTree = "<group>"; };
+		84156D80245CCD4E00A178DB /* SyntaxBasics.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SyntaxBasics.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +61,8 @@
 			isa = PBXGroup;
 			children = (
 				84156D78245CCC5200A178DB /* main.m */,
+				84156D7F245CCD4E00A178DB /* SyntaxBasics.h */,
+				84156D80245CCD4E00A178DB /* SyntaxBasics.m */,
 			);
 			path = "Objective-C-Fundamentals-I";
 			sourceTree = "<group>";
@@ -120,6 +125,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				84156D79245CCC5200A178DB /* main.m in Sources */,
+				84156D81245CCD4E00A178DB /* SyntaxBasics.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
