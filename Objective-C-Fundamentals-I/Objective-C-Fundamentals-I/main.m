@@ -51,7 +51,7 @@ int main(int argc, const char * argv[]) {
                                               @"James T. Kirk",
                                               @"Kathryn Janeway"]];
         
-        // [basics exploreNumbers];
+        [basics exploreNumbers];
     }
     return 0;
 }

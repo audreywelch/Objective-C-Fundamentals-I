@@ -207,4 +207,61 @@
 
 }
 
+- (void)exploreNumbers {
+    //
+    // NSNumber, a lightweight wrapper around the number primitives
+    //
+    NSLog(@"-----------------NSNumber-----------------");
+    
+    // Once converted to NSNumber, value can be converted back
+    // to a primitive with methods shown below
+    
+    NSNumber *aBool = [NSNumber numberWithBool:NO];
+    NSLog(@"%@", [aBool boolValue] ? @"YES" : @"NO");
+    
+    NSNumber *intAsNumber = [NSNumber numberWithInt:2147483647];
+    NSLog(@"%i", [intAsNumber longValue]);
+    
+    NSNumber *longAsNumber = [NSNumber numberWithLong:9223372036854775807];
+    NSLog(@"%li", [longAsNumber longValue]);
+    
+    NSNumber *floatAsNumber = [NSNumber numberWithFloat:26.99f];
+    NSLog(@"%f", [floatAsNumber floatValue]);
+    
+    NSNumber *doubleAsNumber = [NSNumber numberWithDouble:26.99];
+    NSLog(@"%f", [doubleAsNumber doubleValue]);
+    
+    // It's also possible to ocnvert an NSNumber to a string
+    NSString *asString = [self.largeNumber stringValue];
+    NSLog(@"%@", asString);
+    
+    // The following literal shortcuts allow for easier NSNumber
+    // initialization compared to the above methods
+    NSNumber *boolLiteral = @NO;
+    NSNumber *intLiteral = @42;
+    NSNumber *longLiteral = @9223372036854775807L;
+    NSNumber *floatLiteral = @26.99F;
+    NSNumber *doubleLiteral = @26.99;
+    NSLog(@"bool: %@, int: %@, long: %@, float: %@, double: %@", boolLiteral, intLiteral, longLiteral, floatLiteral, doubleLiteral);
+    
+    NSNumber *aNumber = @12.5;
+    NSNumber *anotherNumber = @12.5;
+    
+    // Because both values are objects, == doesn't work in the usual way
+    if (aNumber == anotherNumber) {
+        NSLog(@"Numbers are equal");
+    } else {
+        NSLog(@"Numbers are not equal");
+    }
+    
+    // NSNumber has a method for equating two number objects instead
+    if ([anotherNumber isEqualToNumber:aNumber]) {
+        NSLog(@"Numbers are equal");
+    } else {
+        NSLog(@"Numbers are not equal");
+    }
+    
+    NSLog(@"-----------------End NSNumber-----------------");
+}
+
 @end
