@@ -39,7 +39,7 @@ int main(int argc, const char * argv[]) {
         // basics.explorePrimitives()
         
         [basics explorePrimitives];
-        // [basics exploreObjects];
+        [basics exploreObjects];
         
         // Literals
         // Array: @[]
